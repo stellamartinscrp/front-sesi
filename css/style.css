@@ -1,0 +1,413 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #C5C6C8;
+    font-size: 40px;
+}
+
+h2{
+    text-transform: uppercase;
+    color: #0F173F;
+    font-size: 36px;
+}
+
+h6{
+    font-size: 16px;
+}
+
+#products-services {
+    overflow-x: hidden;
+}
+
+#education{
+    background-color: #F8F8F8;
+    margin-top: 200px;
+}
+
+#footer{
+    background-color: #001645;
+}
+
+#banner .jumbotron{
+    height: 244px;
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 0;
+}
+
+
+.video-icon{
+    font-size: 25px;
+}
+
+.fnt-social-media{
+    font-size:20px
+}
+
+#videos{
+    background-color: #001645;
+    background: linear-gradient(180deg, #001645 70%, #ffffff 30%);
+}
+
+.fnt-weight-500{
+    font-weight: 500;
+}
+
+.fnt-weight-700{
+    font-weight: 700;
+}
+
+
+.last-news-position{
+    position: absolute;
+    bottom: 15px;
+}
+
+.secondary-news-img{
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.secondary-news-padding{
+    padding: 11px 18px !important;
+}
+
+.top-bar {
+    height: 5px;
+    background-color: #06183D;
+}
+
+.top-menu {
+    background-color: #0049C2;
+}
+
+.top-menu-nav {
+    background-color: #0049C2;
+    font-size: 12px;
+    height: 25px;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.topo-navbar-toggler-icon {
+    font-size: 10px;
+    margin-bottom: 12px;
+}
+
+.topo-navbar-toggler {
+    padding: .1rem .25rem;
+    border: unset !important;
+    position: absolute;
+    right: 19px;
+    top: 3px;
+}
+
+.top-menu-ul-style {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff !important;
+}
+
+.main-menu {
+    font-size: 12px;
+    color: #0C51BB;
+    text-transform: uppercase;
+}
+
+.card-flip>div {
+    backface-visibility: hidden;
+    transition: transform 300ms;
+    transition-timing-function: linear;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    border-radius: 5px;
+}
+
+.card-front {
+    transform: rotateY(0deg);
+}
+
+.card-back {
+    transform: rotateY(180deg);
+    position: absolute;
+    top: 0;
+    border-radius: 5px;
+}
+
+.card-flip:hover .card-front {
+    transform: rotateY(-180deg);
+}
+
+.card-flip:hover .card-back {
+    transform: rotateY(0deg);
+}
+
+.card-back-color {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    background-color: #091540;
+    opacity: 0.9;
+}
+
+.card-shadow-inner{
+    -webkit-box-shadow: inset 0 -159px 138px -15px rgba(0,22,69,1);
+    -moz-box-shadow: inset 0 -159px 138px -15px rgba(0,22,69,1);
+    box-shadow: inset 0 -159px 138px -15px rgba(0,22,69,1);
+}
+
+.page-link {
+    color: #8C8C8D !important;
+    border: unset !important;
+}
+
+.page-item.active .page-link {
+    color: #06183D !important;
+    font-weight: 800;
+    background-color: #fff;
+}
+
+.search-form i {
+    font-size: 12px;
+}
+
+.search-form div.input-group-text {
+    background-color: unset !important;
+    border: unset !important;
+    padding: unset !important;
+}
+
+.search-form div input#searchInput {
+    border-top: unset !important;
+    border-left: unset !important;
+    border-right: unset !important;
+    border-radius: 0;
+    margin-left: 10px;
+}
+
+.search-form div input#searchInput::placeholder {
+    font-size: 12px;
+}
+
+.search-form div input#searchInput:-ms-input-placeholder {
+    font-size: 12px;
+}
+
+.search-form div input#searchInput::-ms-input-placeholder {
+    font-size: 12px;
+}
+
+.txt-default-blue {
+    color: #0C51BB !important;
+}
+
+.txt-dark-blue {
+    color: #06183D !important;
+}
+
+.txt-grey{
+    color: #C5C6C8;
+}
+
+.navbar-light .navbar-nav .nav-link .txt-default-blue {
+    color: #0C51BB !important;
+}
+
+li.nav-item.active .txt-default-blue {
+    color: #0C51BB !important;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled).active,
+.btn-outline-primary:not(:disabled):not(.disabled):active,
+.show>.btn-outline-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #1F3469;
+    border-color: #1F3469;
+}
+
+.btn-outline-primary.focus,
+.btn-outline-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(31, 52, 105, .5);
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #1F3469;
+    border-color: #1F3469;
+}
+
+.main-card-title {
+    font-weight: bold;
+    font-size: 16px;
+    color: #091540;
+}
+
+.btn-outline-primary {
+    color: #1F3469;
+    border-color: #1F3469;
+}
+
+.no-border {
+    border: none !important;
+    border-radius: unset !important;
+}
+
+.no-bg{
+    background-color: unset !important;
+}
+
+.bg-darkblue {
+    background-color: #06183D;
+    opacity: 0.9;
+}
+
+.bg-certificates{
+    background: url('../images/educacao/certificacoes.png');
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+.bg-continued-education{
+    background: url('../images/educacao/educacao-continuada.png');
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+.bg-middle-school{
+    background: url('../images/educacao/ensino-fundamental.png');
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+.bg-high-school{
+    background: url('../images/educacao/ensino-medio.png');
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+.bg-eja{
+    background: url('../images/educacao/eja.png');
+    background-position: center;
+    background-size: cover;
+    height: 135px;
+}
+
+.bg-know-more{
+    background: url('../images/educacao/saiba-mais.png');
+    background-position: center;
+    background-size: cover;
+    height: 135px;
+}
+
+.text-certification-position{
+    position: absolute;
+    top: 50%;
+}
+
+.text-middle-school{
+    position: absolute;
+    text-align: center;
+    bottom: -9px;
+    left: 25%;
+}
+
+.text-high-school{
+    position: absolute;
+    top: 24%;
+    left: 33%;
+}
+
+.text-eja{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+}
+
+.text-know-more{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+}
+
+
+@media(min-width: 1024px) {
+    .first-two-position{
+        position: absolute;
+        bottom: -191px;
+        width: 92%;
+        height: 350px;
+    }
+
+    .margin-top-educacao{
+        margin-top: 100px;
+    }
+}
+
+@media(min-width: 701px) {
+    .top-menu-ul-style {
+        margin-bottom: 10px;
+    }
+    .show {
+        display: block;
+    }
+    .hide {
+        display: none !important;
+    }
+    .carousel-item {
+        height: 500px;
+    }
+    .carousel-item img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-height: 300px;
+    }
+}
+
+@media(max-width: 700px) {
+    h1 {
+        font-size: 25px;
+    }
+
+    h2{
+        font-size: 23px;
+    }
+
+    #banner .jumbotron{
+        height: unset !important;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    .top-menu-ul-style {
+        background-color: #0049C2;
+    }
+    .bg-blue {
+        background-color: #0049C2;
+    }
+    .top-menu-ul-style {
+        font-weight: 700;
+    }
+    .top-nav-img {
+        width: auto;
+        height: 46px;
+    }
+
+    .secondary-news-img{
+        height: 100px;
+    }
+
+}

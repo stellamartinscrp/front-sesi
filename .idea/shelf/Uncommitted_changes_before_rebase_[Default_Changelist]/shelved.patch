@@ -1,0 +1,1568 @@
+Index: escola.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- escola.html	(date 1587492370485)
++++ escola.html	(date 1587492370485)
+@@ -0,0 +1,775 @@
++<!doctype html>
++<html lang="en">
++
++<head>
++    <!-- Required meta tags -->
++    <meta charset="utf-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
++
++    <!-- Bootstrap CSS -->
++    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
++          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
++    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
++
++    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
++          rel="stylesheet">
++    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
++
++    <link rel="stylesheet" href="css/style.css">
++
++    <title>SESI</title>
++</head>
++
++<body>
++<section id="top">
++    <div class="top-bar"></div>
++    <div class="top-menu">
++        <div class="container-fluid">
++            <nav class="navbar navbar-expand-md navbar-dark top-menu-nav">
++                <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2" style="z-index: 99;">
++                    <ul class="navbar-nav mr-auto bg-blue top-menu-ul-style">
++                        <li class="nav-item active">
++                            <a class="nav-link" href="#">Sistema Fieto</a>
++                        </li>
++                        <li class="nav-item">
++                            <a class="nav-link" href="#">FIETO</a>
++                        </li>
++                        <li class="nav-item">
++                            <a class="nav-link" href="#">SESI<span class="sr-only">(current)</span></a>
++                        </li>
++                        <li class="nav-item">
++                            <a class="nav-link" href="#">SENAI</a>
++                        </li>
++                        <li class="nav-item">
++                            <a class="nav-link" href="#">IEL</a>
++                        </li>
++                    </ul>
++                </div>
++                <div class="mx-auto order-0">
++                </div>
++                <div class="navbar-collapse collapse w-100 order-3 dual-collapse2" style="z-index: 99;">
++                    <ul class="navbar-nav ml-auto bg-blue top-menu-ul-style">
++                        <li class="nav-item">
++                            <a class="nav-link" href="#">Transparência</a>
++                        </li>
++                        <li class="nav-item">
++                            <a class="nav-link" href="#"><i class="fa fa-window-maximize" aria-hidden="true"></i>
++                                Intranet</a>
++                        </li>
++                    </ul>
++                </div>
++                <button class="navbar-toggler topo-navbar-toggler" type="button" data-toggle="collapse"
++                        data-target=".dual-collapse2"
++                        style="z-index: 100;"
++                >
++                    <span class="navbar-toggler-icon topo-navbar-toggler-icon"></span>
++                </button>
++            </nav>
++        </div>
++    </div>
++
++    </div>
++    <nav class="navbar navbar-expand-lg navbar-light justify-content-end">
++        <a class="navbar-brand" href="#">
++            <img src="images/sesi-2 4.png" class="img-fluid top-nav-img"/>
++        </a>
++        <span class="ml-auto mr-1"></span>
++        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
++            <span class="navbar-toggler-icon"></span>
++        </button>
++        <div class="collapse navbar-collapse flex-grow-0 main-menu" id="navbarSupportedContent">
++            <ul class="navbar-nav text-md-rigth">
++                <li class="nav-item active">
++                    <a class="nav-link txt-default-blue" href="#">
++                        <i class="fa fa-home" aria-hidden="true"></i>
++                    </a>
++                </li>
++                <li class="nav-item active">
++                    <a class="nav-link txt-default-blue" href="#">INSTITUCIONAL <span
++                            class="sr-only">(current)</span></a>
++                </li>
++                <li class="nav-item">
++                    <a class="nav-link txt-default-blue" href="#">SAÚDE E SEGURANÇA</a>
++                </li>
++                <li class="nav-item">
++                    <a class="nav-link txt-default-blue" href="#">CURSOS E PALESTRAS</a>
++                </li>
++                <li class="nav-item">
++                    <a class="nav-link txt-default-blue" href="#">EDUCAÇAO</a>
++                </li>
++            </ul>
++            <form class="form-inline my-2 my-lg-0 search-form">
++                <div class="col-auto">
++                    <div class="input-group">
++                        <div class="input-group-prepend">
++                            <div class="input-group-text">
++                                <i class="fa fa-search txt-default-blue" aria-hidden="true" onclick="showSearch()"></i>
++                            </div>
++                        </div>
++                        <input class="form-control mr-sm-2 hide" id="searchInput" type="search" placeholder="Pesquisar"
++                               aria-label="Search">
++                    </div>
++                </div>
++
++            </form>
++        </div>
++    </nav>
++</section>
++
++<section id="carousel">
++    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
++        <div class="carousel-inner">
++            <div class="carousel-item active">
++
++                <img src="images/banner-sesi 1.png" class="d-block w-100" alt="...">
++            </div>
++            <div class="carousel-item">
++                <img src="images/banner-sesi 1.png" class="d-block w-100" alt="...">
++            </div>
++            <div class="carousel-item">
++                <img src="images/banner-sesi 1.png" class="d-block w-100" alt="...">
++            </div>
++        </div>
++        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
++            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
++            <span class="sr-only">Previous</span>
++        </a>
++        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
++            <span class="carousel-control-next-icon" aria-hidden="true"></span>
++            <span class="sr-only">Next</span>
++        </a>
++    </div>
++</section>
++
++<section id="products-services">
++    <div class="container mt-5">
++        <div class="row">
++            <div class="col-sm-12">
++                <h1><strong>Produtos</strong> e Serviços</h1>
++            </div>
++            <div class="col-sm-6">
++                <p>Veja os produtos e serviços que o SESI tem para você e para sua empresa</p>
++            </div>
++            <div class="col-sm-6 text-md-right">
++                <div class="dropdown">
++                    <button class="btn btn-outline-primary dropdown-toggle" type="button" id="dropdownMenuButton"
++                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
++                        Selecionar a área de atuação
++                    </button>
++                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
++                        <a class="dropdown-item" href="#">Área de atuação 1</a>
++                        <a class="dropdown-item" href="#">Área de atuação 2</a>
++                        <a class="dropdown-item" href="#">Área de atuação 3</a>
++                    </div>
++                </div>
++            </div>
++            <div class="row mt-4 px-2">
++                <div class="col-sm-3 mt-2 flip-card">
++                    <div class="card no-border card-flip h-100">
++                        <div class="card-front text-white ">
++                            <div class="card ">
++                                <img src="images/default-img.png" class="card-img-top" alt="...">
++                                <div class="card-body">
++                                    <h5 class="card-title main-card-title">Operador de máquinas pesadas</h5>
++                                </div>
++                            </div>
++
++                        </div>
++                        <div class="card-back" style="background: url('images/default-img.png');
++                            background-position: center;
++                            background-size: cover;
++                            background-repeat: no-repeat;">
++                            <div class="card-body card-back-color blue">
++                                <p class="card-text text-white">Sed ut perspiciatis unde omnis iste natus error sit
++                                    voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
++                                    illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
++                            </div>
++                        </div>
++                    </div>
++                </div>
++                <div class="col-sm-3 mt-2 flip-card">
++                    <div class="card no-border card-flip h-100">
++                        <div class="card-front text-white ">
++                            <div class="card ">
++                                <img src="images/default-img.png" class="card-img-top" alt="...">
++                                <div class="card-body">
++                                    <h5 class="card-title main-card-title">Operador de máquinas pesadas</h5>
++                                </div>
++                            </div>
++
++                        </div>
++                        <div class="card-back" style="background: url('images/default-img.png');
++                            background-position: center;
++                            background-size: cover;
++                            background-repeat: no-repeat;">
++                            <div class="card-body card-back-color blue">
++                                <p class="card-text text-white">Sed ut perspiciatis unde omnis iste natus error sit
++                                    voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
++                                    illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
++                            </div>
++                        </div>
++                    </div>
++                </div>
++                <div class="col-sm-3 mt-2 flip-card">
++                    <div class="card no-border card-flip h-100">
++                        <div class="card-front text-white ">
++                            <div class="card ">
++                                <img src="images/default-img.png" class="card-img-top" alt="...">
++                                <div class="card-body">
++                                    <h5 class="card-title main-card-title">Operador de máquinas pesadas</h5>
++                                </div>
++                            </div>
++
++                        </div>
++                        <div class="card-back" style="background: url('images/default-img.png');
++                            background-position: center;
++                            background-size: cover;
++                            background-repeat: no-repeat;">
++                            <div class="card-body card-back-color blue">
++                                <p class="card-text text-white">Sed ut perspiciatis unde omnis iste natus error sit
++                                    voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
++                                    illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
++                            </div>
++                        </div>
++                    </div>
++                </div>
++                <div class="col-sm-3 mt-2 flip-card">
++                    <div class="card no-border card-flip h-100">
++                        <div class="card-front text-white ">
++                            <div class="card ">
++                                <img src="images/default-img.png" class="card-img-top" alt="...">
++                                <div class="card-body">
++                                    <h5 class="card-title main-card-title">Operador de máquinas pesadas</h5>
++                                </div>
++                            </div>
++
++                        </div>
++                        <div class="card-back" style="background: url('images/default-img.png');
++                            background-position: center;
++                            background-size: cover;
++                            background-repeat: no-repeat;">
++                            <div class="card-body card-back-color blue">
++                                <p class="card-text text-white">Sed ut perspiciatis unde omnis iste natus error sit
++                                    voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
++                                    illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
++                            </div>
++                        </div>
++                    </div>
++                </div>
++                <div class="col-sm-3 mt-2 flip-card">
++                    <div class="card no-border card-flip h-100">
++                        <div class="card-front text-white ">
++                            <div class="card ">
++                                <img src="images/default-img.png" class="card-img-top" alt="...">
++                                <div class="card-body">
++                                    <h5 class="card-title main-card-title">Operador de máquinas pesadas</h5>
++                                </div>
++                            </div>
++
++                        </div>
++                        <div class="card-back" style="background: url('images/default-img.png');
++                            background-position: center;
++                            background-size: cover;
++                            background-repeat: no-repeat;">
++                            <div class="card-body card-back-color blue">
++                                <p class="card-text text-white">Sed ut perspiciatis unde omnis iste natus error sit
++                                    voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
++                                    illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
++                            </div>
++                        </div>
++                    </div>
++                </div>
++                <div class="col-sm-3 mt-2 flip-card">
++                    <div class="card no-border card-flip h-100">
++                        <div class="card-front text-white ">
++                            <div class="card ">
++                                <img src="images/default-img.png" class="card-img-top" alt="...">
++                                <div class="card-body">
++                                    <h5 class="card-title main-card-title">Operador de máquinas pesadas</h5>
++                                </div>
++                            </div>
++
++                        </div>
++                        <div class="card-back" style="background: url('images/default-img.png');
++                            background-position: center;
++                            background-size: cover;
++                            background-repeat: no-repeat;">
++                            <div class="card-body card-back-color blue">
++                                <p class="card-text text-white">Sed ut perspiciatis unde omnis iste natus error sit
++                                    voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
++                                    illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
++                            </div>
++                        </div>
++                    </div>
++                </div>
++                <div class="col-sm-3 mt-2 flip-card">
++                    <div class="card no-border card-flip h-100">
++                        <div class="card-front text-white ">
++                            <div class="card ">
++                                <img src="images/default-img.png" class="card-img-top" alt="...">
++                                <div class="card-body">
++                                    <h5 class="card-title main-card-title">Operador de máquinas pesadas</h5>
++                                </div>
++                            </div>
++
++                        </div>
++                        <div class="card-back" style="background: url('images/default-img.png');
++                            background-position: center;
++                            background-size: cover;
++                            background-repeat: no-repeat;">
++                            <div class="card-body card-back-color blue">
++                                <p class="card-text text-white">Sed ut perspiciatis unde omnis iste natus error sit
++                                    voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
++                                    illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
++                            </div>
++                        </div>
++                    </div>
++                </div>
++                <div class="col-sm-3 mt-2 flip-card">
++                    <div class="card no-border card-flip h-100">
++                        <div class="card-front text-white ">
++                            <div class="card ">
++                                <img src="images/default-img.png" class="card-img-top" alt="...">
++                                <div class="card-body">
++                                    <h5 class="card-title main-card-title">Operador de máquinas pesadas</h5>
++                                </div>
++                            </div>
++
++                        </div>
++                        <div class="card-back" style="background: url('images/default-img.png');
++                            background-position: center;
++                            background-size: cover;
++                            background-repeat: no-repeat;">
++                            <div class="card-body card-back-color blue">
++                                <p class="card-text text-white">Sed ut perspiciatis unde omnis iste natus error sit
++                                    voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
++                                    illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
++                            </div>
++                        </div>
++                    </div>
++                </div>
++                <div class="col-sm-3 mt-2 flip-card">
++                    <div class="card no-border card-flip h-100">
++                        <div class="card-front text-white ">
++                            <div class="card ">
++                                <img src="images/default-img.png" class="card-img-top" alt="...">
++                                <div class="card-body">
++                                    <h5 class="card-title main-card-title">Operador de máquinas pesadas</h5>
++                                </div>
++                            </div>
++
++                        </div>
++                        <div class="card-back" style="background: url('images/default-img.png');
++                            background-position: center;
++                            background-size: cover;
++                            background-repeat: no-repeat;">
++                            <div class="card-body card-back-color blue">
++                                <p class="card-text text-white">Sed ut perspiciatis unde omnis iste natus error sit
++                                    voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
++                                    illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
++                            </div>
++                        </div>
++                    </div>
++                </div>
++                <div class="col-sm-3 mt-2 flip-card">
++                    <div class="card no-border card-flip h-100">
++                        <div class="card-front text-white ">
++                            <div class="card ">
++                                <img src="images/default-img.png" class="card-img-top" alt="...">
++                                <div class="card-body">
++                                    <h5 class="card-title main-card-title">Operador de máquinas pesadas</h5>
++                                </div>
++                            </div>
++
++                        </div>
++                        <div class="card-back" style="background: url('images/default-img.png');
++                            background-position: center;
++                            background-size: cover;
++                            background-repeat: no-repeat;">
++                            <div class="card-body card-back-color blue">
++                                <p class="card-text text-white">Sed ut perspiciatis unde omnis iste natus error sit
++                                    voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
++                                    illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
++                            </div>
++                        </div>
++                    </div>
++                </div>
++                <div class="col-sm-3 mt-2 flip-card">
++                    <div class="card no-border card-flip h-100">
++                        <div class="card-front text-white ">
++                            <div class="card ">
++                                <img src="images/default-img.png" class="card-img-top" alt="...">
++                                <div class="card-body">
++                                    <h5 class="card-title main-card-title">Operador de máquinas pesadas</h5>
++                                </div>
++                            </div>
++
++                        </div>
++                        <div class="card-back" style="background: url('images/default-img.png');
++                            background-position: center;
++                            background-size: cover;
++                            background-repeat: no-repeat;">
++                            <div class="card-body card-back-color blue">
++                                <p class="card-text text-white">Sed ut perspiciatis unde omnis iste natus error sit
++                                    voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
++                                    illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
++                            </div>
++                        </div>
++                    </div>
++                </div>
++                <div class="col-sm-3 mt-2 flip-card">
++                    <div class="card no-border card-flip h-100">
++                        <div class="card-front text-white ">
++                            <div class="card ">
++                                <img src="images/default-img.png" class="card-img-top" alt="...">
++                                <div class="card-body">
++                                    <h5 class="card-title main-card-title">Operador de máquinas pesadas</h5>
++                                </div>
++                            </div>
++
++                        </div>
++                        <div class="card-back" style="background: url('images/default-img.png');
++                            background-position: center;
++                            background-size: cover;
++                            background-repeat: no-repeat;">
++                            <div class="card-body card-back-color blue">
++                                <p class="card-text text-white">Sed ut perspiciatis unde omnis iste natus error sit
++                                    voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
++                                    illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
++                            </div>
++                        </div>
++                    </div>
++                </div>
++                <div class="col-12 mt-4 d-flex justify-content-center">
++                    <nav aria-label="...">
++                        <ul class="pagination">
++                            <li class="page-item disabled">
++                                <a class="page-link" href="#" tabindex="-1" aria-disabled="true">
++                                    <i class="fa fa-chevron-left txt-dark-blue " aria-hidden="true"></i>
++                                </a>
++                            </li>
++                            <li class="page-item"><a class="page-link" href="#">1</a></li>
++                            <li class="page-item active" aria-current="page">
++                                <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
++                            </li>
++                            <li class="page-item"><a class="page-link" href="#">3</a></li>
++                            <li class="page-item">
++                                <a class="page-link" href="#">
++                                    <i class="fa fa-chevron-right txt-dark-blue " aria-hidden="true"></i>
++                                </a>
++                            </li>
++                        </ul>
++                    </nav>
++                </div>
++            </div>
++
++        </div>
++    </div>
++</section>
++
++<section id="education">
++    <div class="container pt-5">
++        <div class="row ">
++            <div class="col-sm-4">
++                <h1>Educação</h1>
++                <p class="txt-grey">
++                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut nunc.
++                </p>
++            </div>
++            <div class="col-sm-8">
++                <div class="row">
++                    <div class="col-sm-12">
++
++                        <div class="row">
++                            <div class="col-sm-6 text-center mt-3">
++                                <div class="card no-border bg-certificates text-center  first-two-position">
++                                    <p class="text-uppercase txt-dark-blue text-certification-position ml-3">
++                                        CERTIFICAÇÕES</p>
++                                </div>
++                            </div>
++                            <div class="col-sm-6 mt-3">
++                                <div class="card no-border bg-continued-education text-center  first-two-position">
++                                    <p class="text-uppercase txt-dark-blue mt-3">EDUCAÇÃO <br/>CONTINUADA À DISTÂNCIA
++                                    </p>
++                                </div>
++                            </div>
++                        </div>
++                    </div>
++                </div>
++            </div>
++            <div class="col-sm-12 margin-top-educacao">
++                <div class="row">
++                    <div class="col-sm-4 mt-3">
++                        <div class="card no-border bg-middle-school text-center">
++                            <p class="text-uppercase text-middle-school txt-dark-blue">ENSINO FUNDAMENTAL</p>
++                        </div>
++                    </div>
++                    <div class="col-sm-4 mt-3">
++                        <div class="card no-border bg-high-school text-center">
++                            <p class="text-uppercase text-high-school txt-dark-blue">ENSINO MÉDIO</p>
++                        </div>
++                    </div>
++                    <div class="col-sm-4 ">
++                        <div class="row">
++                            <div class="col-12 mt-3">
++                                <div class="card no-border bg-eja text-center">
++                                    <p class="text-uppercase txt-dark-blue text-eja">EJA</p>
++                                </div>
++                            </div>
++                            <div class="col-12 mt-3">
++                                <div class="card no-border bg-know-more text-center">
++                                    <p class="text-uppercase txt-dark-blue text-know-more">SAIBA MAIS</p>
++                                </div>
++                            </div>
++                        </div>
++                    </div>
++                </div>
++            </div>
++
++        </div>
++    </div>
++</section>
++
++<section id="news">
++    <div class="container mt-3 pt-5">
++        <div class="row">
++            <div class="col-sm-12 text-center">
++                <h2><strong>NOTÍCIAS</strong></h2>
++                <p class="fnt-weight-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut nunc.</p>
++            </div>
++            <div class="col-sm-6 mt-3">
++                <div class="card  no-border text-white">
++                    <img class="card-img" src="images/img-news.png" alt="Card image">
++                    <div class="card-img-overlay card-shadow-inner  ">
++                        <div class="last-news-position">
++                            <p class="card-title"><small>Negócios</small></p>
++                            <h5 class="card-text fnt-weight-500" style="line-height: 30px;">Exposição Costurando
++                                Histórias permanece até 25/1 no Museu da Indústria</h5>
++                        </div>
++                    </div>
++                </div>
++            </div>
++            <div class="col-sm-6 mt-3">
++                <div class="card no-border mb-3" style="max-width: 540px;">
++                    <div class="row no-gutters">
++                        <div class="col-md-4 secondary-news-img"
++                             style="background-image: url('images/img-news-2.png')"></div>
++                        <div class="col-md-8">
++                            <div class="card-body secondary-news-padding">
++                                <p class="card-title txt-default-blue"><small>Arte</small></p>
++                                <p class="card-text fnt-weight-700">Exposição Costurando Histórias permanece até 25/1 no
++                                    Museu da Indústria</p>
++                                <p class="card-text"><small class="text-muted"><a href="" class="txt-default-blue">Veja
++                                    Mais</a></small></p>
++                            </div>
++                        </div>
++                    </div>
++                </div>
++                <div class="card no-border mb-3" style="max-width: 540px;">
++                    <div class="row no-gutters">
++                        <div class="col-md-4 secondary-news-img"
++                             style="background-image: url('images/img-news-2.png')"></div>
++                        <div class="col-md-8">
++                            <div class="card-body secondary-news-padding">
++                                <p class="card-title txt-default-blue"><small>Arte</small></p>
++                                <p class="card-text fnt-weight-700">Exposição Costurando Histórias permanece até 25/1 no
++                                    Museu da Indústria</p>
++                                <p class="card-text"><small class="text-muted"><a href="" class="txt-default-blue">Veja
++                                    Mais</a></small></p>
++                            </div>
++                        </div>
++                    </div>
++                </div>
++                <div class="card no-border mb-3" style="max-width: 540px;">
++                    <div class="row no-gutters">
++                        <div class="col-md-4 secondary-news-img"
++                             style="background-image: url('images/img-news-2.png')"></div>
++                        <div class="col-md-8">
++                            <div class="card-body secondary-news-padding">
++                                <p class="card-title txt-default-blue"><small>Arte</small></p>
++                                <p class="card-text fnt-weight-700">Exposição Costurando Histórias permanece até 25/1 no
++                                    Museu da Indústria</p>
++                                <p class="card-text"><small class="text-muted"><a href="" class="txt-default-blue">Veja
++                                    Mais</a></small></p>
++                            </div>
++                        </div>
++                    </div>
++                </div>
++            </div>
++        </div>
++    </div>
++</section>
++
++<section id="banner" class="mt-5">
++    <div class="jumbotron jumbotron-fluid" style="background-image: url('images/banner.png')">
++
++    </div>
++</section>
++
++<section id="videos">
++    <div class="container">
++        <div class="row">
++            <div class="col-sm-12 pt-5 text-center">
++                <h2 class="text-white"><strong>Vídeos</strong></h2>
++            </div>
++            <div class="col-sm-12 mt-5">
++                    <div class="row">
++                        <div class="col-sm-6">
++                            <div class="embed-responsive embed-responsive-4by3 mt-3">
++                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
++                                        allowfullscreen></iframe>
++                            </div>
++                        </div>
++                        <div class="col-sm-6">
++                            <div class="row">
++                                <div class="col-sm-6">
++                                    <div class="embed-responsive embed-responsive-4by3 mt-3">
++                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"></iframe>
++                                    </div>
++                                    <div class="embed-responsive embed-responsive-4by3 mt-3">
++                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"></iframe>
++                                    </div>
++                                </div>
++                                <div class="col-sm-6">
++                                    <div class="embed-responsive embed-responsive-4by3 mt-3">
++                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"></iframe>
++                                    </div>
++                                    <div class="embed-responsive embed-responsive-4by3 mt-3">
++                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"></iframe>
++                                    </div>
++                                </div>
++                            </div>
++                        </div>
++                    </div>
++            </div>
++            <div class="col-sm-12 text-right my-4">
++                <p><strong><a href="" class="txt-dark-blue">Acesse o nosso canal para conferir todos o nosso conteúdo! <i class="fa fa-play-circle-o fa-2 video-icon" aria-hidden="true"></i></a></strong></p>
++            </div>
++
++        </div>
++    </div>
++</section>
++<section id="footer">
++<footer class="footer pt-5 pb-3">
++    <div class="container">
++        <div class="row">
++            <div class="col-sm-9">
++                <div class="row">
++                    <div class="col-sm-3">
++                        <ul class="nav flex-column">
++                            <li class="nav-item">
++                                <h6><a class="nav-link txt-default-blue fnt-weight-700" href="#">SESI - TO</a></h6>
++                            </li>
++                            <li class="nav-item">
++                                <a class="nav-link text-white" href="#">Institucional</a>
++                            </li>
++                            <li class="nav-item">
++                                <a class="nav-link text-white" href="#">História</a>
++                            </li>
++                            <li class="nav-item">
++                                <a class="nav-link text-white" href="#">Diretoria</a>
++                            </li>
++                        </ul>
++                    </div>
++                    <div class="col-sm-3">
++                        <ul class="nav flex-column">
++                            <li class="nav-item">
++                                <h6><a class="nav-link txt-default-blue fnt-weight-700" href="#">ACESSO RÁPIDO</a></h6>
++                            </li>
++                            <li class="nav-item">
++                                <a class="nav-link text-white" href="#">Link</a>
++                            </li>
++                            <li class="nav-item">
++                                <a class="nav-link text-white" href="#">Link</a>
++                            </li>
++                            <li class="nav-item">
++                                <a class="nav-link text-white" href="#">Disabled</a>
++                            </li>
++                        </ul>
++                    </div>
++                    <div class="col-sm-3">
++                        <ul class="nav flex-column">
++                            <li class="nav-item">
++                                <h6><a class="nav-link txt-default-blue fnt-weight-700" href="#">EM DESTAQUE</a></h6>
++                            </li>
++                            <li class="nav-item">
++                                <a class="nav-link text-white" href="#">Institucional</a>
++                            </li>
++                            <li class="nav-item">
++                                <a class="nav-link text-white" href="#">História</a>
++                            </li>
++                            <li class="nav-item">
++                                <a class="nav-link text-white" href="#">Diretoria</a>
++                            </li>
++
++                        </ul>
++                    </div>
++                    <div class="col-sm-3">
++                        <ul class="nav flex-column">
++                            <li class="nav-item">
++                                <h6><a class="nav-link txt-default-blue fnt-weight-700" href="#">ENCONTRE FACILMENTE</a></h6>
++                            </li>
++                            <li class="nav-item">
++                                <a class="nav-link text-white" href="#">Institucional</a>
++                            </li>
++                            <li class="nav-item">
++                                <a class="nav-link text-white" href="#">História</a>
++                            </li>
++                            <li class="nav-item">
++                                <a class="nav-link text-white" href="#">Diretoria</a>
++                            </li>
++                        </ul>
++                    </div>
++                </div>
++            </div>
++            <div class="col-sm-3">
++                <p class="text-white">104 Sul, Rua SE 03 Lote 34 A, Ed. Armando Monteiro Neto - Plano Diretor Sul, Palmas - TO
++                    CEP: 77.020-016
++
++                    Tel.: +55 63 3229-5700</p>
++
++                <h6 class="txt-default-blue mt-5">
++                    <span class="fnt-weight-700">
++                        Siga-nos:
++                    </span>
++                    <span class="text-white">
++                        <a href="">
++                            <i class="fa fa-twitter text-white ml-3 fnt-social-media" aria-hidden="true"></i>
++                        </a>
++                        <a href="">
++                            <i class="fa fa-youtube text-white ml-3 fnt-social-media" aria-hidden="true"></i>
++                        </a>
++                        <a href="">
++                            <i class="fa fa-facebook-square text-white ml-3 fnt-social-media" aria-hidden="true"></i>
++                        </a>
++                    </span>
++                </h6>
++            </div>
++        </div>
++    </div>
++</footer>
++</section>
++
++<!-- Optional JavaScript -->
++<!-- jQuery first, then Popper.js, then Bootstrap JS -->
++<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
++        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
++        crossorigin="anonymous"></script>
++<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
++        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
++        crossorigin="anonymous"></script>
++<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
++        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
++        crossorigin="anonymous"></script>
++
++
++<script>
++    function showSearch() {
++        $('#searchInput').addClass("show");
++        $('#searchInput').removeClass("hide");
++    }
++</script>
++
++</body>
++
++</html>
+\ No newline at end of file
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- index.html	(date 1587492370485)
++++ index.html	(date 1587492370485)
+@@ -0,0 +1,775 @@
++<!doctype html>
++<html lang="en">
++
++<head>
++    <!-- Required meta tags -->
++    <meta charset="utf-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
++
++    <!-- Bootstrap CSS -->
++    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
++          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
++    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
++
++    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
++          rel="stylesheet">
++    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
++
++    <link rel="stylesheet" href="css/style.css">
++
++    <title>SESI</title>
++</head>
++
++<body>
++<section id="top">
++    <div class="top-bar"></div>
++    <div class="top-menu">
++        <div class="container-fluid">
++            <nav class="navbar navbar-expand-md navbar-dark top-menu-nav">
++                <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2" style="z-index: 99;">
++                    <ul class="navbar-nav mr-auto bg-blue top-menu-ul-style">
++                        <li class="nav-item active">
++                            <a class="nav-link" href="#">Sistema Fieto</a>
++                        </li>
++                        <li class="nav-item">
++                            <a class="nav-link" href="#">FIETO</a>
++                        </li>
++                        <li class="nav-item">
++                            <a class="nav-link" href="#">SESI<span class="sr-only">(current)</span></a>
++                        </li>
++                        <li class="nav-item">
++                            <a class="nav-link" href="#">SENAI</a>
++                        </li>
++                        <li class="nav-item">
++                            <a class="nav-link" href="#">IEL</a>
++                        </li>
++                    </ul>
++                </div>
++                <div class="mx-auto order-0">
++                </div>
++                <div class="navbar-collapse collapse w-100 order-3 dual-collapse2" style="z-index: 99;">
++                    <ul class="navbar-nav ml-auto bg-blue top-menu-ul-style">
++                        <li class="nav-item">
++                            <a class="nav-link" href="#">Transparência</a>
++                        </li>
++                        <li class="nav-item">
++                            <a class="nav-link" href="#"><i class="fa fa-window-maximize" aria-hidden="true"></i>
++                                Intranet</a>
++                        </li>
++                    </ul>
++                </div>
++                <button class="navbar-toggler topo-navbar-toggler" type="button" data-toggle="collapse"
++                        data-target=".dual-collapse2"
++                        style="z-index: 100;"
++                >
++                    <span class="navbar-toggler-icon topo-navbar-toggler-icon"></span>
++                </button>
++            </nav>
++        </div>
++    </div>
++
++    </div>
++    <nav class="navbar navbar-expand-lg navbar-light justify-content-end">
++        <a class="navbar-brand" href="#">
++            <img src="images/sesi-2 4.png" class="img-fluid top-nav-img"/>
++        </a>
++        <span class="ml-auto mr-1"></span>
++        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
++            <span class="navbar-toggler-icon"></span>
++        </button>
++        <div class="collapse navbar-collapse flex-grow-0 main-menu" id="navbarSupportedContent">
++            <ul class="navbar-nav text-md-rigth">
++                <li class="nav-item active">
++                    <a class="nav-link txt-default-blue" href="#">
++                        <i class="fa fa-home" aria-hidden="true"></i>
++                    </a>
++                </li>
++                <li class="nav-item active">
++                    <a class="nav-link txt-default-blue" href="#">INSTITUCIONAL <span
++                            class="sr-only">(current)</span></a>
++                </li>
++                <li class="nav-item">
++                    <a class="nav-link txt-default-blue" href="#">SAÚDE E SEGURANÇA</a>
++                </li>
++                <li class="nav-item">
++                    <a class="nav-link txt-default-blue" href="#">CURSOS E PALESTRAS</a>
++                </li>
++                <li class="nav-item">
++                    <a class="nav-link txt-default-blue" href="#">EDUCAÇAO</a>
++                </li>
++            </ul>
++            <form class="form-inline my-2 my-lg-0 search-form">
++                <div class="col-auto">
++                    <div class="input-group">
++                        <div class="input-group-prepend">
++                            <div class="input-group-text">
++                                <i class="fa fa-search txt-default-blue" aria-hidden="true" onclick="showSearch()"></i>
++                            </div>
++                        </div>
++                        <input class="form-control mr-sm-2 hide" id="searchInput" type="search" placeholder="Pesquisar"
++                               aria-label="Search">
++                    </div>
++                </div>
++
++            </form>
++        </div>
++    </nav>
++</section>
++
++<section id="carousel">
++    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
++        <div class="carousel-inner">
++            <div class="carousel-item active">
++
++                <img src="images/banner-sesi 1.png" class="d-block w-100" alt="...">
++            </div>
++            <div class="carousel-item">
++                <img src="images/banner-sesi 1.png" class="d-block w-100" alt="...">
++            </div>
++            <div class="carousel-item">
++                <img src="images/banner-sesi 1.png" class="d-block w-100" alt="...">
++            </div>
++        </div>
++        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
++            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
++            <span class="sr-only">Previous</span>
++        </a>
++        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
++            <span class="carousel-control-next-icon" aria-hidden="true"></span>
++            <span class="sr-only">Next</span>
++        </a>
++    </div>
++</section>
++
++<section id="products-services">
++    <div class="container mt-5">
++        <div class="row">
++            <div class="col-sm-12">
++                <h1><strong>Produtos</strong> e Serviços</h1>
++            </div>
++            <div class="col-sm-6">
++                <p>Veja os produtos e serviços que o SESI tem para você e para sua empresa</p>
++            </div>
++            <div class="col-sm-6 text-md-right">
++                <div class="dropdown">
++                    <button class="btn btn-outline-primary dropdown-toggle" type="button" id="dropdownMenuButton"
++                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
++                        Selecionar a área de atuação
++                    </button>
++                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
++                        <a class="dropdown-item" href="#">Área de atuação 1</a>
++                        <a class="dropdown-item" href="#">Área de atuação 2</a>
++                        <a class="dropdown-item" href="#">Área de atuação 3</a>
++                    </div>
++                </div>
++            </div>
++            <div class="row mt-4 px-2">
++                <div class="col-sm-3 mt-2 flip-card">
++                    <div class="card no-border card-flip h-100">
++                        <div class="card-front text-white ">
++                            <div class="card ">
++                                <img src="images/default-img.png" class="card-img-top" alt="...">
++                                <div class="card-body">
++                                    <h5 class="card-title main-card-title">Operador de máquinas pesadas</h5>
++                                </div>
++                            </div>
++
++                        </div>
++                        <div class="card-back" style="background: url('images/default-img.png');
++                            background-position: center;
++                            background-size: cover;
++                            background-repeat: no-repeat;">
++                            <div class="card-body card-back-color blue">
++                                <p class="card-text text-white">Sed ut perspiciatis unde omnis iste natus error sit
++                                    voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
++                                    illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
++                            </div>
++                        </div>
++                    </div>
++                </div>
++                <div class="col-sm-3 mt-2 flip-card">
++                    <div class="card no-border card-flip h-100">
++                        <div class="card-front text-white ">
++                            <div class="card ">
++                                <img src="images/default-img.png" class="card-img-top" alt="...">
++                                <div class="card-body">
++                                    <h5 class="card-title main-card-title">Operador de máquinas pesadas</h5>
++                                </div>
++                            </div>
++
++                        </div>
++                        <div class="card-back" style="background: url('images/default-img.png');
++                            background-position: center;
++                            background-size: cover;
++                            background-repeat: no-repeat;">
++                            <div class="card-body card-back-color blue">
++                                <p class="card-text text-white">Sed ut perspiciatis unde omnis iste natus error sit
++                                    voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
++                                    illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
++                            </div>
++                        </div>
++                    </div>
++                </div>
++                <div class="col-sm-3 mt-2 flip-card">
++                    <div class="card no-border card-flip h-100">
++                        <div class="card-front text-white ">
++                            <div class="card ">
++                                <img src="images/default-img.png" class="card-img-top" alt="...">
++                                <div class="card-body">
++                                    <h5 class="card-title main-card-title">Operador de máquinas pesadas</h5>
++                                </div>
++                            </div>
++
++                        </div>
++                        <div class="card-back" style="background: url('images/default-img.png');
++                            background-position: center;
++                            background-size: cover;
++                            background-repeat: no-repeat;">
++                            <div class="card-body card-back-color blue">
++                                <p class="card-text text-white">Sed ut perspiciatis unde omnis iste natus error sit
++                                    voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
++                                    illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
++                            </div>
++                        </div>
++                    </div>
++                </div>
++                <div class="col-sm-3 mt-2 flip-card">
++                    <div class="card no-border card-flip h-100">
++                        <div class="card-front text-white ">
++                            <div class="card ">
++                                <img src="images/default-img.png" class="card-img-top" alt="...">
++                                <div class="card-body">
++                                    <h5 class="card-title main-card-title">Operador de máquinas pesadas</h5>
++                                </div>
++                            </div>
++
++                        </div>
++                        <div class="card-back" style="background: url('images/default-img.png');
++                            background-position: center;
++                            background-size: cover;
++                            background-repeat: no-repeat;">
++                            <div class="card-body card-back-color blue">
++                                <p class="card-text text-white">Sed ut perspiciatis unde omnis iste natus error sit
++                                    voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
++                                    illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
++                            </div>
++                        </div>
++                    </div>
++                </div>
++                <div class="col-sm-3 mt-2 flip-card">
++                    <div class="card no-border card-flip h-100">
++                        <div class="card-front text-white ">
++                            <div class="card ">
++                                <img src="images/default-img.png" class="card-img-top" alt="...">
++                                <div class="card-body">
++                                    <h5 class="card-title main-card-title">Operador de máquinas pesadas</h5>
++                                </div>
++                            </div>
++
++                        </div>
++                        <div class="card-back" style="background: url('images/default-img.png');
++                            background-position: center;
++                            background-size: cover;
++                            background-repeat: no-repeat;">
++                            <div class="card-body card-back-color blue">
++                                <p class="card-text text-white">Sed ut perspiciatis unde omnis iste natus error sit
++                                    voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
++                                    illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
++                            </div>
++                        </div>
++                    </div>
++                </div>
++                <div class="col-sm-3 mt-2 flip-card">
++                    <div class="card no-border card-flip h-100">
++                        <div class="card-front text-white ">
++                            <div class="card ">
++                                <img src="images/default-img.png" class="card-img-top" alt="...">
++                                <div class="card-body">
++                                    <h5 class="card-title main-card-title">Operador de máquinas pesadas</h5>
++                                </div>
++                            </div>
++
++                        </div>
++                        <div class="card-back" style="background: url('images/default-img.png');
++                            background-position: center;
++                            background-size: cover;
++                            background-repeat: no-repeat;">
++                            <div class="card-body card-back-color blue">
++                                <p class="card-text text-white">Sed ut perspiciatis unde omnis iste natus error sit
++                                    voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
++                                    illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
++                            </div>
++                        </div>
++                    </div>
++                </div>
++                <div class="col-sm-3 mt-2 flip-card">
++                    <div class="card no-border card-flip h-100">
++                        <div class="card-front text-white ">
++                            <div class="card ">
++                                <img src="images/default-img.png" class="card-img-top" alt="...">
++                                <div class="card-body">
++                                    <h5 class="card-title main-card-title">Operador de máquinas pesadas</h5>
++                                </div>
++                            </div>
++
++                        </div>
++                        <div class="card-back" style="background: url('images/default-img.png');
++                            background-position: center;
++                            background-size: cover;
++                            background-repeat: no-repeat;">
++                            <div class="card-body card-back-color blue">
++                                <p class="card-text text-white">Sed ut perspiciatis unde omnis iste natus error sit
++                                    voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
++                                    illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
++                            </div>
++                        </div>
++                    </div>
++                </div>
++                <div class="col-sm-3 mt-2 flip-card">
++                    <div class="card no-border card-flip h-100">
++                        <div class="card-front text-white ">
++                            <div class="card ">
++                                <img src="images/default-img.png" class="card-img-top" alt="...">
++                                <div class="card-body">
++                                    <h5 class="card-title main-card-title">Operador de máquinas pesadas</h5>
++                                </div>
++                            </div>
++
++                        </div>
++                        <div class="card-back" style="background: url('images/default-img.png');
++                            background-position: center;
++                            background-size: cover;
++                            background-repeat: no-repeat;">
++                            <div class="card-body card-back-color blue">
++                                <p class="card-text text-white">Sed ut perspiciatis unde omnis iste natus error sit
++                                    voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
++                                    illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
++                            </div>
++                        </div>
++                    </div>
++                </div>
++                <div class="col-sm-3 mt-2 flip-card">
++                    <div class="card no-border card-flip h-100">
++                        <div class="card-front text-white ">
++                            <div class="card ">
++                                <img src="images/default-img.png" class="card-img-top" alt="...">
++                                <div class="card-body">
++                                    <h5 class="card-title main-card-title">Operador de máquinas pesadas</h5>
++                                </div>
++                            </div>
++
++                        </div>
++                        <div class="card-back" style="background: url('images/default-img.png');
++                            background-position: center;
++                            background-size: cover;
++                            background-repeat: no-repeat;">
++                            <div class="card-body card-back-color blue">
++                                <p class="card-text text-white">Sed ut perspiciatis unde omnis iste natus error sit
++                                    voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
++                                    illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
++                            </div>
++                        </div>
++                    </div>
++                </div>
++                <div class="col-sm-3 mt-2 flip-card">
++                    <div class="card no-border card-flip h-100">
++                        <div class="card-front text-white ">
++                            <div class="card ">
++                                <img src="images/default-img.png" class="card-img-top" alt="...">
++                                <div class="card-body">
++                                    <h5 class="card-title main-card-title">Operador de máquinas pesadas</h5>
++                                </div>
++                            </div>
++
++                        </div>
++                        <div class="card-back" style="background: url('images/default-img.png');
++                            background-position: center;
++                            background-size: cover;
++                            background-repeat: no-repeat;">
++                            <div class="card-body card-back-color blue">
++                                <p class="card-text text-white">Sed ut perspiciatis unde omnis iste natus error sit
++                                    voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
++                                    illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
++                            </div>
++                        </div>
++                    </div>
++                </div>
++                <div class="col-sm-3 mt-2 flip-card">
++                    <div class="card no-border card-flip h-100">
++                        <div class="card-front text-white ">
++                            <div class="card ">
++                                <img src="images/default-img.png" class="card-img-top" alt="...">
++                                <div class="card-body">
++                                    <h5 class="card-title main-card-title">Operador de máquinas pesadas</h5>
++                                </div>
++                            </div>
++
++                        </div>
++                        <div class="card-back" style="background: url('images/default-img.png');
++                            background-position: center;
++                            background-size: cover;
++                            background-repeat: no-repeat;">
++                            <div class="card-body card-back-color blue">
++                                <p class="card-text text-white">Sed ut perspiciatis unde omnis iste natus error sit
++                                    voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
++                                    illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
++                            </div>
++                        </div>
++                    </div>
++                </div>
++                <div class="col-sm-3 mt-2 flip-card">
++                    <div class="card no-border card-flip h-100">
++                        <div class="card-front text-white ">
++                            <div class="card ">
++                                <img src="images/default-img.png" class="card-img-top" alt="...">
++                                <div class="card-body">
++                                    <h5 class="card-title main-card-title">Operador de máquinas pesadas</h5>
++                                </div>
++                            </div>
++
++                        </div>
++                        <div class="card-back" style="background: url('images/default-img.png');
++                            background-position: center;
++                            background-size: cover;
++                            background-repeat: no-repeat;">
++                            <div class="card-body card-back-color blue">
++                                <p class="card-text text-white">Sed ut perspiciatis unde omnis iste natus error sit
++                                    voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
++                                    illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
++                            </div>
++                        </div>
++                    </div>
++                </div>
++                <div class="col-12 mt-4 d-flex justify-content-center">
++                    <nav aria-label="...">
++                        <ul class="pagination">
++                            <li class="page-item disabled">
++                                <a class="page-link" href="#" tabindex="-1" aria-disabled="true">
++                                    <i class="fa fa-chevron-left txt-dark-blue " aria-hidden="true"></i>
++                                </a>
++                            </li>
++                            <li class="page-item"><a class="page-link" href="#">1</a></li>
++                            <li class="page-item active" aria-current="page">
++                                <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
++                            </li>
++                            <li class="page-item"><a class="page-link" href="#">3</a></li>
++                            <li class="page-item">
++                                <a class="page-link" href="#">
++                                    <i class="fa fa-chevron-right txt-dark-blue " aria-hidden="true"></i>
++                                </a>
++                            </li>
++                        </ul>
++                    </nav>
++                </div>
++            </div>
++
++        </div>
++    </div>
++</section>
++
++<section id="education">
++    <div class="container pt-5">
++        <div class="row ">
++            <div class="col-sm-4">
++                <h1>Educação</h1>
++                <p class="txt-grey">
++                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut nunc.
++                </p>
++            </div>
++            <div class="col-sm-8">
++                <div class="row">
++                    <div class="col-sm-12">
++
++                        <div class="row">
++                            <div class="col-sm-6 text-center mt-3">
++                                <div class="card no-border bg-certificates text-center  first-two-position">
++                                    <p class="text-uppercase txt-dark-blue text-certification-position ml-3">
++                                        CERTIFICAÇÕES</p>
++                                </div>
++                            </div>
++                            <div class="col-sm-6 mt-3">
++                                <div class="card no-border bg-continued-education text-center  first-two-position">
++                                    <p class="text-uppercase txt-dark-blue mt-3">EDUCAÇÃO <br/>CONTINUADA À DISTÂNCIA
++                                    </p>
++                                </div>
++                            </div>
++                        </div>
++                    </div>
++                </div>
++            </div>
++            <div class="col-sm-12 margin-top-educacao">
++                <div class="row">
++                    <div class="col-sm-4 mt-3">
++                        <div class="card no-border bg-middle-school text-center">
++                            <p class="text-uppercase text-middle-school txt-dark-blue">ENSINO FUNDAMENTAL</p>
++                        </div>
++                    </div>
++                    <div class="col-sm-4 mt-3">
++                        <div class="card no-border bg-high-school text-center">
++                            <p class="text-uppercase text-high-school txt-dark-blue">ENSINO MÉDIO</p>
++                        </div>
++                    </div>
++                    <div class="col-sm-4 ">
++                        <div class="row">
++                            <div class="col-12 mt-3">
++                                <div class="card no-border bg-eja text-center">
++                                    <p class="text-uppercase txt-dark-blue text-eja">EJA</p>
++                                </div>
++                            </div>
++                            <div class="col-12 mt-3">
++                                <div class="card no-border bg-know-more text-center">
++                                    <p class="text-uppercase txt-dark-blue text-know-more">SAIBA MAIS</p>
++                                </div>
++                            </div>
++                        </div>
++                    </div>
++                </div>
++            </div>
++
++        </div>
++    </div>
++</section>
++
++<section id="news">
++    <div class="container mt-3 pt-5">
++        <div class="row">
++            <div class="col-sm-12 text-center">
++                <h2><strong>NOTÍCIAS</strong></h2>
++                <p class="fnt-weight-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut nunc.</p>
++            </div>
++            <div class="col-sm-6 mt-3">
++                <div class="card  no-border text-white">
++                    <img class="card-img" src="images/img-news.png" alt="Card image">
++                    <div class="card-img-overlay card-shadow-inner  ">
++                        <div class="last-news-position">
++                            <p class="card-title"><small>Negócios</small></p>
++                            <h5 class="card-text fnt-weight-500" style="line-height: 30px;">Exposição Costurando
++                                Histórias permanece até 25/1 no Museu da Indústria</h5>
++                        </div>
++                    </div>
++                </div>
++            </div>
++            <div class="col-sm-6 mt-3">
++                <div class="card no-border mb-3" style="max-width: 540px;">
++                    <div class="row no-gutters">
++                        <div class="col-md-4 secondary-news-img"
++                             style="background-image: url('images/img-news-2.png')"></div>
++                        <div class="col-md-8">
++                            <div class="card-body secondary-news-padding">
++                                <p class="card-title txt-default-blue"><small>Arte</small></p>
++                                <p class="card-text fnt-weight-700">Exposição Costurando Histórias permanece até 25/1 no
++                                    Museu da Indústria</p>
++                                <p class="card-text"><small class="text-muted"><a href="" class="txt-default-blue">Veja
++                                    Mais</a></small></p>
++                            </div>
++                        </div>
++                    </div>
++                </div>
++                <div class="card no-border mb-3" style="max-width: 540px;">
++                    <div class="row no-gutters">
++                        <div class="col-md-4 secondary-news-img"
++                             style="background-image: url('images/img-news-2.png')"></div>
++                        <div class="col-md-8">
++                            <div class="card-body secondary-news-padding">
++                                <p class="card-title txt-default-blue"><small>Arte</small></p>
++                                <p class="card-text fnt-weight-700">Exposição Costurando Histórias permanece até 25/1 no
++                                    Museu da Indústria</p>
++                                <p class="card-text"><small class="text-muted"><a href="" class="txt-default-blue">Veja
++                                    Mais</a></small></p>
++                            </div>
++                        </div>
++                    </div>
++                </div>
++                <div class="card no-border mb-3" style="max-width: 540px;">
++                    <div class="row no-gutters">
++                        <div class="col-md-4 secondary-news-img"
++                             style="background-image: url('images/img-news-2.png')"></div>
++                        <div class="col-md-8">
++                            <div class="card-body secondary-news-padding">
++                                <p class="card-title txt-default-blue"><small>Arte</small></p>
++                                <p class="card-text fnt-weight-700">Exposição Costurando Histórias permanece até 25/1 no
++                                    Museu da Indústria</p>
++                                <p class="card-text"><small class="text-muted"><a href="" class="txt-default-blue">Veja
++                                    Mais</a></small></p>
++                            </div>
++                        </div>
++                    </div>
++                </div>
++            </div>
++        </div>
++    </div>
++</section>
++
++<section id="banner" class="mt-5">
++    <div class="jumbotron jumbotron-fluid" style="background-image: url('images/banner.png')">
++
++    </div>
++</section>
++
++<section id="videos">
++    <div class="container">
++        <div class="row">
++            <div class="col-sm-12 pt-5 text-center">
++                <h2 class="text-white"><strong>Vídeos</strong></h2>
++            </div>
++            <div class="col-sm-12 mt-5">
++                    <div class="row">
++                        <div class="col-sm-6">
++                            <div class="embed-responsive embed-responsive-4by3 mt-3">
++                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
++                                        allowfullscreen></iframe>
++                            </div>
++                        </div>
++                        <div class="col-sm-6">
++                            <div class="row">
++                                <div class="col-sm-6">
++                                    <div class="embed-responsive embed-responsive-4by3 mt-3">
++                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"></iframe>
++                                    </div>
++                                    <div class="embed-responsive embed-responsive-4by3 mt-3">
++                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"></iframe>
++                                    </div>
++                                </div>
++                                <div class="col-sm-6">
++                                    <div class="embed-responsive embed-responsive-4by3 mt-3">
++                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"></iframe>
++                                    </div>
++                                    <div class="embed-responsive embed-responsive-4by3 mt-3">
++                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"></iframe>
++                                    </div>
++                                </div>
++                            </div>
++                        </div>
++                    </div>
++            </div>
++            <div class="col-sm-12 text-right my-4">
++                <p><strong><a href="" class="txt-dark-blue">Acesse o nosso canal para conferir todos o nosso conteúdo! <i class="fa fa-play-circle-o fa-2 video-icon" aria-hidden="true"></i></a></strong></p>
++            </div>
++
++        </div>
++    </div>
++</section>
++<section id="footer">
++<footer class="footer pt-5 pb-3">
++    <div class="container">
++        <div class="row">
++            <div class="col-sm-9">
++                <div class="row">
++                    <div class="col-sm-3">
++                        <ul class="nav flex-column">
++                            <li class="nav-item">
++                                <h6><a class="nav-link txt-default-blue fnt-weight-700" href="#">SESI - TO</a></h6>
++                            </li>
++                            <li class="nav-item">
++                                <a class="nav-link text-white" href="#">Institucional</a>
++                            </li>
++                            <li class="nav-item">
++                                <a class="nav-link text-white" href="#">História</a>
++                            </li>
++                            <li class="nav-item">
++                                <a class="nav-link text-white" href="#">Diretoria</a>
++                            </li>
++                        </ul>
++                    </div>
++                    <div class="col-sm-3">
++                        <ul class="nav flex-column">
++                            <li class="nav-item">
++                                <h6><a class="nav-link txt-default-blue fnt-weight-700" href="#">ACESSO RÁPIDO</a></h6>
++                            </li>
++                            <li class="nav-item">
++                                <a class="nav-link text-white" href="#">Link</a>
++                            </li>
++                            <li class="nav-item">
++                                <a class="nav-link text-white" href="#">Link</a>
++                            </li>
++                            <li class="nav-item">
++                                <a class="nav-link text-white" href="#">Disabled</a>
++                            </li>
++                        </ul>
++                    </div>
++                    <div class="col-sm-3">
++                        <ul class="nav flex-column">
++                            <li class="nav-item">
++                                <h6><a class="nav-link txt-default-blue fnt-weight-700" href="#">EM DESTAQUE</a></h6>
++                            </li>
++                            <li class="nav-item">
++                                <a class="nav-link text-white" href="#">Institucional</a>
++                            </li>
++                            <li class="nav-item">
++                                <a class="nav-link text-white" href="#">História</a>
++                            </li>
++                            <li class="nav-item">
++                                <a class="nav-link text-white" href="#">Diretoria</a>
++                            </li>
++
++                        </ul>
++                    </div>
++                    <div class="col-sm-3">
++                        <ul class="nav flex-column">
++                            <li class="nav-item">
++                                <h6><a class="nav-link txt-default-blue fnt-weight-700" href="#">ENCONTRE FACILMENTE</a></h6>
++                            </li>
++                            <li class="nav-item">
++                                <a class="nav-link text-white" href="#">Institucional</a>
++                            </li>
++                            <li class="nav-item">
++                                <a class="nav-link text-white" href="#">História</a>
++                            </li>
++                            <li class="nav-item">
++                                <a class="nav-link text-white" href="#">Diretoria</a>
++                            </li>
++                        </ul>
++                    </div>
++                </div>
++            </div>
++            <div class="col-sm-3">
++                <p class="text-white">104 Sul, Rua SE 03 Lote 34 A, Ed. Armando Monteiro Neto - Plano Diretor Sul, Palmas - TO
++                    CEP: 77.020-016
++
++                    Tel.: +55 63 3229-5700</p>
++
++                <h6 class="txt-default-blue mt-5">
++                    <span class="fnt-weight-700">
++                        Siga-nos:
++                    </span>
++                    <span class="text-white">
++                        <a href="">
++                            <i class="fa fa-twitter text-white ml-3 fnt-social-media" aria-hidden="true"></i>
++                        </a>
++                        <a href="">
++                            <i class="fa fa-youtube text-white ml-3 fnt-social-media" aria-hidden="true"></i>
++                        </a>
++                        <a href="">
++                            <i class="fa fa-facebook-square text-white ml-3 fnt-social-media" aria-hidden="true"></i>
++                        </a>
++                    </span>
++                </h6>
++            </div>
++        </div>
++    </div>
++</footer>
++</section>
++
++<!-- Optional JavaScript -->
++<!-- jQuery first, then Popper.js, then Bootstrap JS -->
++<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
++        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
++        crossorigin="anonymous"></script>
++<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
++        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
++        crossorigin="anonymous"></script>
++<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
++        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
++        crossorigin="anonymous"></script>
++
++
++<script>
++    function showSearch() {
++        $('#searchInput').addClass("show");
++        $('#searchInput').removeClass("hide");
++    }
++</script>
++
++</body>
++
++</html>
+\ No newline at end of file

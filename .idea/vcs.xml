@@ -3,5 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/front-sesi" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/js/Inputmask" vcs="Git" />
   </component>
 </project>

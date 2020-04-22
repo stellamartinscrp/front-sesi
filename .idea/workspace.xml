@@ -10,28 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb780562-e668-4d53-b5d7-1ae860f21107" name="Default Changelist" comment="Arquivos que ainda não tinham ido">
-      <change afterPath="$PROJECT_DIR$/certificacoes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/escola.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/intern-pages.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/banner-sesi-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/opcoes/output/batch_Group-456.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/opcoes/output/batch_Group-457.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/opcoes/output/batch_Group-458.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/opcoes/output/batch_Group-459.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/opcoes/output/batch_Group-460.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/opcoes/output/batch_Group-461.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/programs/image 11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/programs/image 12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/programs/image 13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/programs/image 14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/programs/image 8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/quem-somos/person.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/produtos-servicos.html" afterDir="false" />
+    <list default="true" id="fb780562-e668-4d53-b5d7-1ae860f21107" name="Default Changelist" comment="paginas: certificacoes.html e produtos-servicos.html mais alterações na index">
+      <change afterPath="$PROJECT_DIR$/produto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/escola.html" beforeDir="false" afterPath="$PROJECT_DIR$/escola.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/intern-pages.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/intern-pages.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/produtos-servicos.html" beforeDir="false" afterPath="$PROJECT_DIR$/produtos-servicos.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,18 +60,18 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Front-ends\front-sesi" />
-      <recent name="D:\Front-ends\front-sesi\images" />
-      <recent name="D:\Front-ends\SESI\images" />
-      <recent name="D:\Front-ends\SESI\images\educacao" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Front-ends\front-sesi\images\programs" />
       <recent name="D:\Front-ends\front-sesi\images\quem-somos" />
       <recent name="D:\Front-ends\front-sesi\images\opcoes" />
       <recent name="D:\Front-ends\front-sesi\images" />
       <recent name="D:\Front-ends\front-sesi" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Front-ends\front-sesi" />
+      <recent name="D:\Front-ends\front-sesi\images" />
+      <recent name="D:\Front-ends\SESI\images" />
+      <recent name="D:\Front-ends\SESI\images\educacao" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -103,7 +87,8 @@
       <workItem from="1587407206748" duration="2772000" />
       <workItem from="1587413475653" duration="3791000" />
       <workItem from="1587484604542" duration="3605000" />
-      <workItem from="1587489007360" duration="11423000" />
+      <workItem from="1587489007360" duration="11523000" />
+      <workItem from="1587568118770" duration="3725000" />
     </task>
     <task id="LOCAL-00001" summary="Adiciona imagens">
       <created>1587487536645</created>
@@ -140,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587509822097</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="paginas: certificacoes.html e produtos-servicos.html mais alterações na index">
+      <created>1587517332506</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1587517332506</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,7 +156,8 @@
     <MESSAGE value="Primeiro commit" />
     <MESSAGE value="Segundo Commit" />
     <MESSAGE value="Arquivos que ainda não tinham ido" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arquivos que ainda não tinham ido" />
+    <MESSAGE value="paginas: certificacoes.html e produtos-servicos.html mais alterações na index" />
+    <option name="LAST_COMMIT_MESSAGE" value="paginas: certificacoes.html e produtos-servicos.html mais alterações na index" />
   </component>
   <component name="WindowStateProjectService">
     <state x="654" y="275" key="#Notifications" timestamp="1587487850027">
@@ -191,10 +184,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="ShowDiffWithBranchDialog/0.0.1536.824@0.0.1536.824" timestamp="1587488955261" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1587509830792">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1587517359953">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1587509830792" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1587517359953" />
     <state x="579" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587488747743">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

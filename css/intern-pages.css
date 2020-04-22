@@ -1,0 +1,8 @@
+@media (min-width: 701px){
+    .certifications-carousel-size {
+        height: 300px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}

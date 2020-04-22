@@ -222,6 +222,15 @@ h6{
     color: #0C51BB !important;
 }
 
+.navbar-light .navbar-toggler {
+    color: unset;
+    border-color: transparent;
+}
+
+span.navbar-toggler-icon {
+    height: 20px;
+}
+
 li.nav-item.active .txt-default-blue {
     color: #0C51BB !important;
 }

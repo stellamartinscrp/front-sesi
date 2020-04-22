@@ -1,0 +1,107 @@
+#options{
+    background-color: #001645;
+    background: linear-gradient(180deg, #001645 200px, #ffffff 40px);
+}
+
+
+.bg-grey{
+    background-color: #F1F1F1 !important;
+}
+
+.secondary-menu-item{
+    font-size: 12px;
+    color: #0C51BB !important;
+}
+
+.option-tags{
+    height: 230px;
+    border-radius: 10px !important;
+    color: #fff;
+}
+
+.option-tags:hover{
+    color: #091540;
+}
+
+.text-option-position{
+    margin-top: 5%;
+    font-weight: 900;
+}
+
+.bg-who-we-are{
+    background-image: url(../images/opcoes/output/batch_Group-456.png);
+    background-position: bottom left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-sesi-school{
+    background-image: url('../images/opcoes/output/batch_Group-457.png');
+    background-position: bottom right;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-education-steps{
+    background-image: url('../images/opcoes/output/batch_Group-458.png');
+    background-position: bottom left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-photos-gallery{
+    background-image: url('../images/opcoes/output/batch_Group-459.png');
+    background-position: bottom left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-video-gallery{
+    background-image: url('../images/opcoes/output/batch_Group-460.png');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-knowledge-industry{
+    background-image: url('../images/opcoes/output/batch_Group-461.png');
+    background-position: bottom left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+@media(max-width: 700px) {
+    #options{
+        height: 1000px;
+        background: linear-gradient(180deg, #001645 500px, #ffffff 40px);
+    }
+
+
+    .option-tags{
+        height: 100px;
+    }
+
+}
+
+@media (min-width: 1024px) and (max-width: 1300px){
+    .carousel-item {
+        height: 471px;
+    }
+}
+
+@media (min-width: 760px) and (max-width: 1025px){
+    .carousel-item {
+        height: 350px;
+    }
+}
